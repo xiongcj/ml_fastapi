@@ -9,15 +9,15 @@ Tasks include:
 ### Environment Set up  
 
 * Download and install conda if you don’t have it already.
-    * Use the supplied requirements file to create a new environment
-
+* Use the supplied requirements file to create a new environment, or
     ```
-    conda env create -f environment.yml
+    conda create -n [envname] "python=3.8" scikit-learn pandas numpy pytest jupyter jupyterlab fastapi uvicorn -c conda-forge
     ```
-    * activate the env
+* activate the env
     ```
-    conda activate heroku
+    conda activate [envname]
     ````
+* Install git either through conda (conda install git) or through your CLI, e.g. sudo api-get git.
 
 ### Model  
 
