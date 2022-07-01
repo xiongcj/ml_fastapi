@@ -1,5 +1,6 @@
 from fastapi.testclient import TestClient
 from main import app
+from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
 import json
 
 # Instantiate the testing client with our app.

@@ -1,9 +1,9 @@
-numpy
-pandas
-scikit-learn
-pytest
-requests
+numpy==1.20.1
+pandas==1.2.2
+scikit-learn==0.24.1
+pytest==7.1.2
+requests==2.27.1
 fastapi==0.63.0
-uvicorn
-gunicorn
-joblib
+uvicorn==0.18.2
+gunicorn==20.0.4
+joblib==1.0.1
