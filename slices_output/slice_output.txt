@@ -1,97 +1,95 @@
-workclass ( Local-gov) :--: Precision:  0.93. Recall:  0.95. Fbeta:  0.94
-workclass ( Self-emp-not-inc) :--: Precision:  0.92. Recall:  0.85. Fbeta:  0.89
-workclass ( Federal-gov) :--: Precision:  0.96. Recall:  0.96. Fbeta:  0.96
-workclass ( Private) :--: Precision:  0.96. Recall:  0.92. Fbeta:  0.94
-workclass ( State-gov) :--: Precision:  0.95. Recall:  0.98. Fbeta:  0.97
-workclass ( Self-emp-inc) :--: Precision:  0.97. Recall:  0.95. Fbeta:  0.96
-workclass ( Without-pay) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-education ( Bachelors) :--: Precision:  0.96. Recall:  0.94. Fbeta:  0.95
-education ( Masters) :--: Precision:  0.95. Recall:  0.97. Fbeta:  0.96
-education ( HS-grad) :--: Precision:  0.96. Recall:  0.88. Fbeta:  0.92
-education ( Some-college) :--: Precision:  0.96. Recall:  0.91. Fbeta:  0.94
-education ( Assoc-voc) :--: Precision:  0.93. Recall:  0.86. Fbeta:  0.89
-education ( 12th) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-education ( Assoc-acdm) :--: Precision:  0.89. Recall:  0.90. Fbeta:  0.90
-education ( 10th) :--: Precision:  1.00. Recall:  0.80. Fbeta:  0.89
-education ( 9th) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-education ( 5th-6th) :--: Precision:  1.00. Recall:  0.75. Fbeta:  0.86
-education ( Prof-school) :--: Precision:  0.96. Recall:  0.99. Fbeta:  0.97
-education ( 11th) :--: Precision:  1.00. Recall:  0.79. Fbeta:  0.88
-education ( 1st-4th) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-education ( 7th-8th) :--: Precision:  1.00. Recall:  0.92. Fbeta:  0.96
-education ( Doctorate) :--: Precision:  0.95. Recall:  0.97. Fbeta:  0.96
-education ( Preschool) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-marital-status ( Married-civ-spouse) :--: Precision:  0.95. Recall:  0.93. Fbeta:  0.94
-marital-status ( Never-married) :--: Precision:  0.97. Recall:  0.90. Fbeta:  0.93
-marital-status ( Divorced) :--: Precision:  0.96. Recall:  0.83. Fbeta:  0.89
-marital-status ( Separated) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-marital-status ( Widowed) :--: Precision:  1.00. Recall:  0.85. Fbeta:  0.92
-marital-status ( Married-spouse-absent) :--: Precision:  1.00. Recall:  0.89. Fbeta:  0.94
-marital-status ( Married-AF-spouse) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-occupation ( Prof-specialty) :--: Precision:  0.96. Recall:  0.94. Fbeta:  0.95
-occupation ( Farming-fishing) :--: Precision:  0.91. Recall:  0.77. Fbeta:  0.83
-occupation ( Adm-clerical) :--: Precision:  0.89. Recall:  0.91. Fbeta:  0.90
-occupation ( Craft-repair) :--: Precision:  0.96. Recall:  0.86. Fbeta:  0.91
-occupation ( Tech-support) :--: Precision:  1.00. Recall:  0.84. Fbeta:  0.92
-occupation ( Exec-managerial) :--: Precision:  0.95. Recall:  0.96. Fbeta:  0.95
-occupation ( Sales) :--: Precision:  0.97. Recall:  0.92. Fbeta:  0.94
-occupation ( Transport-moving) :--: Precision:  0.98. Recall:  0.94. Fbeta:  0.96
-occupation ( Other-service) :--: Precision:  0.95. Recall:  0.78. Fbeta:  0.86
-occupation ( Protective-serv) :--: Precision:  0.89. Recall:  0.91. Fbeta:  0.90
-occupation ( Machine-op-inspct) :--: Precision:  1.00. Recall:  0.94. Fbeta:  0.97
-occupation ( Handlers-cleaners) :--: Precision:  1.00. Recall:  0.88. Fbeta:  0.94
-occupation ( Priv-house-serv) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-occupation ( Armed-Forces) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-relationship ( Husband) :--: Precision:  0.95. Recall:  0.93. Fbeta:  0.94
-relationship ( Not-in-family) :--: Precision:  0.97. Recall:  0.90. Fbeta:  0.93
-relationship ( Own-child) :--: Precision:  1.00. Recall:  0.79. Fbeta:  0.88
-relationship ( Unmarried) :--: Precision:  0.97. Recall:  0.78. Fbeta:  0.87
-relationship ( Wife) :--: Precision:  0.96. Recall:  0.94. Fbeta:  0.95
-relationship ( Other-relative) :--: Precision:  1.00. Recall:  0.88. Fbeta:  0.93
-race ( White) :--: Precision:  0.95. Recall:  0.92. Fbeta:  0.94
-race ( Other) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-race ( Black) :--: Precision:  0.99. Recall:  0.89. Fbeta:  0.94
-race ( Asian-Pac-Islander) :--: Precision:  0.93. Recall:  0.94. Fbeta:  0.93
-race ( Amer-Indian-Eskimo) :--: Precision:  1.00. Recall:  0.60. Fbeta:  0.75
-sex ( Male) :--: Precision:  0.95. Recall:  0.92. Fbeta:  0.94
-sex ( Female) :--: Precision:  0.96. Recall:  0.90. Fbeta:  0.93
-native-country ( United-States) :--: Precision:  0.96. Recall:  0.92. Fbeta:  0.94
-native-country ( Outlying-US(Guam-USVI-etc)) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Canada) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Puerto-Rico) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Mexico) :--: Precision:  1.00. Recall:  0.88. Fbeta:  0.93
-native-country ( Philippines) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Cuba) :--: Precision:  0.67. Recall:  1.00. Fbeta:  0.80
-native-country ( France) :--: Precision:  0.67. Recall:  1.00. Fbeta:  0.80
-native-country ( China) :--: Precision:  0.75. Recall:  1.00. Fbeta:  0.86
-native-country ( Cambodia) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
-native-country ( Jamaica) :--: Precision:  1.00. Recall:  0.60. Fbeta:  0.75
-native-country ( South) :--: Precision:  1.00. Recall:  0.67. Fbeta:  0.80
-native-country ( Haiti) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Scotland) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( El-Salvador) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Ecuador) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Ireland) :--: Precision:  1.00. Recall:  0.50. Fbeta:  0.67
-native-country ( Germany) :--: Precision:  0.86. Recall:  0.86. Fbeta:  0.86
-native-country ( Dominican-Republic) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Peru) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Taiwan) :--: Precision:  0.86. Recall:  1.00. Fbeta:  0.92
-native-country ( India) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Columbia) :--: Precision:  0.50. Recall:  1.00. Fbeta:  0.67
-native-country ( Vietnam) :--: Precision:  0.67. Recall:  1.00. Fbeta:  0.80
-native-country ( Guatemala) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Poland) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Yugoslavia) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Iran) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Japan) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( England) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Italy) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Nicaragua) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
-native-country ( Portugal) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Honduras) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Trinadad&Tobago) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Greece) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Hong) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Thailand) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Hungary) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
-native-country ( Laos) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+workclass (Private) :--: Precision:  0.73. Recall:  0.62. Fbeta:  0.67
+workclass (Local-gov) :--: Precision:  0.72. Recall:  0.66. Fbeta:  0.69
+workclass (State-gov) :--: Precision:  0.68. Recall:  0.73. Fbeta:  0.70
+workclass (Self-emp-not-inc) :--: Precision:  0.78. Recall:  0.55. Fbeta:  0.64
+workclass (Self-emp-inc) :--: Precision:  0.75. Recall:  0.78. Fbeta:  0.76
+workclass (Federal-gov) :--: Precision:  0.73. Recall:  0.82. Fbeta:  0.77
+workclass (Without-pay) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+education (Prof-school) :--: Precision:  0.91. Recall:  0.96. Fbeta:  0.93
+education (HS-grad) :--: Precision:  0.60. Recall:  0.45. Fbeta:  0.51
+education (Bachelors) :--: Precision:  0.76. Recall:  0.74. Fbeta:  0.75
+education (Some-college) :--: Precision:  0.67. Recall:  0.51. Fbeta:  0.58
+education (7th-8th) :--: Precision:  1.00. Recall:  0.25. Fbeta:  0.40
+education (Masters) :--: Precision:  0.85. Recall:  0.86. Fbeta:  0.86
+education (11th) :--: Precision:  1.00. Recall:  0.36. Fbeta:  0.53
+education (Assoc-acdm) :--: Precision:  0.59. Recall:  0.63. Fbeta:  0.61
+education (Assoc-voc) :--: Precision:  0.60. Recall:  0.47. Fbeta:  0.53
+education (5th-6th) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+education (10th) :--: Precision:  1.00. Recall:  0.20. Fbeta:  0.33
+education (12th) :--: Precision:  0.50. Recall:  0.17. Fbeta:  0.25
+education (Doctorate) :--: Precision:  0.77. Recall:  0.87. Fbeta:  0.82
+education (1st-4th) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+education (9th) :--: Precision:  1.00. Recall:  0.33. Fbeta:  0.50
+education (Preschool) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+marital-status (Never-married) :--: Precision:  0.72. Recall:  0.38. Fbeta:  0.50
+marital-status (Married-civ-spouse) :--: Precision:  0.73. Recall:  0.69. Fbeta:  0.71
+marital-status (Married-spouse-absent) :--: Precision:  1.00. Recall:  0.11. Fbeta:  0.20
+marital-status (Separated) :--: Precision:  1.00. Recall:  0.47. Fbeta:  0.64
+marital-status (Divorced) :--: Precision:  0.74. Recall:  0.43. Fbeta:  0.55
+marital-status (Widowed) :--: Precision:  1.00. Recall:  0.22. Fbeta:  0.36
+marital-status (Married-AF-spouse) :--: Precision:  1.00. Recall:  0.50. Fbeta:  0.67
+occupation (Prof-specialty) :--: Precision:  0.79. Recall:  0.78. Fbeta:  0.79
+occupation (Craft-repair) :--: Precision:  0.59. Recall:  0.44. Fbeta:  0.50
+occupation (Other-service) :--: Precision:  0.56. Recall:  0.24. Fbeta:  0.33
+occupation (Transport-moving) :--: Precision:  0.65. Recall:  0.35. Fbeta:  0.46
+occupation (Adm-clerical) :--: Precision:  0.56. Recall:  0.48. Fbeta:  0.52
+occupation (Exec-managerial) :--: Precision:  0.81. Recall:  0.80. Fbeta:  0.80
+occupation (Sales) :--: Precision:  0.68. Recall:  0.62. Fbeta:  0.65
+occupation (Machine-op-inspct) :--: Precision:  0.54. Recall:  0.25. Fbeta:  0.34
+occupation (Farming-fishing) :--: Precision:  0.79. Recall:  0.54. Fbeta:  0.64
+occupation (Handlers-cleaners) :--: Precision:  0.88. Recall:  0.44. Fbeta:  0.58
+occupation (Protective-serv) :--: Precision:  0.72. Recall:  0.62. Fbeta:  0.67
+occupation (Tech-support) :--: Precision:  0.65. Recall:  0.61. Fbeta:  0.63
+occupation (Priv-house-serv) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+relationship (Not-in-family) :--: Precision:  0.73. Recall:  0.41. Fbeta:  0.52
+relationship (Husband) :--: Precision:  0.73. Recall:  0.69. Fbeta:  0.71
+relationship (Unmarried) :--: Precision:  0.94. Recall:  0.36. Fbeta:  0.52
+relationship (Own-child) :--: Precision:  1.00. Recall:  0.22. Fbeta:  0.36
+relationship (Wife) :--: Precision:  0.70. Recall:  0.75. Fbeta:  0.72
+relationship (Other-relative) :--: Precision:  0.00. Recall:  0.00. Fbeta:  0.00
+race (White) :--: Precision:  0.73. Recall:  0.65. Fbeta:  0.69
+race (Asian-Pac-Islander) :--: Precision:  0.73. Recall:  0.69. Fbeta:  0.71
+race (Black) :--: Precision:  0.74. Recall:  0.55. Fbeta:  0.63
+race (Amer-Indian-Eskimo) :--: Precision:  0.80. Recall:  0.67. Fbeta:  0.73
+race (Other) :--: Precision:  0.60. Recall:  0.50. Fbeta:  0.55
+sex (Male) :--: Precision:  0.74. Recall:  0.65. Fbeta:  0.69
+sex (Female) :--: Precision:  0.71. Recall:  0.60. Fbeta:  0.65
+native-country (United-States) :--: Precision:  0.73. Recall:  0.64. Fbeta:  0.68
+native-country (Taiwan) :--: Precision:  0.83. Recall:  1.00. Fbeta:  0.91
+native-country (Germany) :--: Precision:  1.00. Recall:  0.67. Fbeta:  0.80
+native-country (Mexico) :--: Precision:  0.50. Recall:  0.33. Fbeta:  0.40
+native-country (Cuba) :--: Precision:  1.00. Recall:  0.33. Fbeta:  0.50
+native-country (Iran) :--: Precision:  0.67. Recall:  0.67. Fbeta:  0.67
+native-country (El-Salvador) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Nicaragua) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+native-country (Peru) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Puerto-Rico) :--: Precision:  0.75. Recall:  1.00. Fbeta:  0.86
+native-country (Canada) :--: Precision:  0.60. Recall:  0.50. Fbeta:  0.55
+native-country (Guatemala) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+native-country (Japan) :--: Precision:  0.80. Recall:  0.80. Fbeta:  0.80
+native-country (India) :--: Precision:  0.82. Recall:  0.90. Fbeta:  0.86
+native-country (Columbia) :--: Precision:  0.00. Recall:  0.00. Fbeta:  0.00
+native-country (Portugal) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+native-country (Jamaica) :--: Precision:  1.00. Recall:  0.25. Fbeta:  0.40
+native-country (South) :--: Precision:  0.50. Recall:  1.00. Fbeta:  0.67
+native-country (Ireland) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (China) :--: Precision:  0.33. Recall:  1.00. Fbeta:  0.50
+native-country (Dominican-Republic) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (France) :--: Precision:  1.00. Recall:  0.67. Fbeta:  0.80
+native-country (Philippines) :--: Precision:  0.75. Recall:  0.55. Fbeta:  0.63
+native-country (Vietnam) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+native-country (Greece) :--: Precision:  0.50. Recall:  1.00. Fbeta:  0.67
+native-country (Italy) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Yugoslavia) :--: Precision:  0.00. Recall:  1.00. Fbeta:  0.00
+native-country (Poland) :--: Precision:  0.50. Recall:  0.33. Fbeta:  0.40
+native-country (Haiti) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (England) :--: Precision:  0.75. Recall:  0.60. Fbeta:  0.67
+native-country (Hong) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Honduras) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Cambodia) :--: Precision:  1.00. Recall:  0.00. Fbeta:  0.00
+native-country (Outlying-US(Guam-USVI-etc)) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Laos) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Hungary) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Ecuador) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Trinadad&Tobago) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00
+native-country (Scotland) :--: Precision:  1.00. Recall:  1.00. Fbeta:  1.00

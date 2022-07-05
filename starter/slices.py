@@ -18,15 +18,15 @@ cat_features = [
 ]
 
 model_path = 'model'
-file_path ='data/clean_census.csv'
 
 def test_slice():
     """
     Outputs the performance on slices of categorical features
     """
 
-    data = pd.read_csv(file_path)
-    _, test = train_test_split(data, test_size=0.20)
+    # Obtain test set from the train_model.py split for consistency in evaluation
+    test = joblib.load(os.path.join(model_path, 'test_set.pkl'))
+    print(test.shape)
 
     rf = joblib.load(os.path.join(model_path, 'model.pkl'))
     encoder = joblib.load(os.path.join(model_path, 'encoder.pkl'))
